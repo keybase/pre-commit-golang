@@ -22,3 +22,10 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `gometalinter`, requires https://github.com/alecthomas/gometalinter"
+-   id: golangci-lint
+    name: golangci-lint
+    description: Fast linters runner for Go.
+    entry: run-golangci-lint.sh
+    types: [go]
+    language: golang
+    pass_filenames: false
