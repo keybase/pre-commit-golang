@@ -1,2 +1,3 @@
 #!/bin/sh
-exec golangci-lint run --fix "$@"
+cd go
+exec golangci-lint run --new --fix "$@"
