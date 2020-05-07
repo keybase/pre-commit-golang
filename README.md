@@ -1,4 +1,4 @@
-pre-commit-golang
+pre-commit-golang [![Build Status](https://travis-ci.org/keybase/pre-commit-golang.svg?branch=master)](https://travis-ci.org/keybase/pre-commit-golang)
 =================
 
 golang hooks for http://pre-commit.com/
